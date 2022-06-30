@@ -1,8 +1,4 @@
-﻿using Microsoft.VisualBasic;
-using System;
-using System.Numerics;
-using System.Threading;
-
+﻿
 namespace Chapter_0001
 {
     class Program
@@ -18,7 +14,7 @@ namespace Chapter_0001
                 {
                     break;
                 }
-                Console.WriteLine("数字を入力してください。");
+                Console.WriteLine("請輸入一個數字。");
                 number1 = Console.ReadLine();
             }
 
@@ -30,18 +26,18 @@ namespace Chapter_0001
                 {
                     break;
                 }
-                Console.WriteLine("数字を入力してください。");
+                Console.WriteLine("請輸入一個數字。");
                 number2 = Console.ReadLine();
             }
 
             var result = x1 * x2;
             Console.WriteLine(result);
         }
-        static void Caluculate_CharCount()
+        static void Calculate_CharCount()
         {
             var line = Console.ReadLine();
             var charCount = line.Length;
-            Console.WriteLine(charCount + "文字です");
+            Console.WriteLine(charCount + "是");
         }
     }
 }

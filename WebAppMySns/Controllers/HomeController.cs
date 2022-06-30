@@ -8,7 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using HigLabo.Data;
 using Newtonsoft.Json;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
+
 
 namespace WebAppMySns.Controllers
 {
